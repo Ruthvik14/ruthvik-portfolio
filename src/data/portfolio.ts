@@ -3,6 +3,7 @@ export const portfolioData = {
         name: "Ruthvik Kumar Lakka",
         role: "Full Stack Developer",
         tagline: "I build high-performance, scalable systems and clean digital experiences.",
+        location: "USA",
         email: "ruthvik.kumar14@gmail.com",
         socials: {
             github: "https://github.com/Ruthvik14",

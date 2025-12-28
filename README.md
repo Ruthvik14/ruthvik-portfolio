@@ -1,4 +1,4 @@
-# Modern Next.js Portfolio (Sanika Style)
+# Modern Next.js Portfolio
 
 A high-performance, responsive portfolio built with Next.js 14, Tailwind CSS, and Framer Motion.
 
