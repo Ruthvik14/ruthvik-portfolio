@@ -7,12 +7,12 @@ import { portfolioData } from "@/data/portfolio"
 interface Project {
     name: string
     description: string
-    highlights: string[]
+    highlights?: string[]
     techStack: string[]
-    image: string
+    image?: string
     date?: string
     github: string
-    live: string
+    live?: string
 }
 
 const getTechLogo = (name: string) => {
