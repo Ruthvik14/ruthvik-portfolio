@@ -26,7 +26,7 @@ export default function Experience({ experience }: { experience: ExperienceGroup
                 className="space-y-12"
             >
                 <h2 className="text-3xl font-bold flex items-center gap-4">
-                    <span className="text-emerald-500">03.</span> Experience
+                    <span className="text-emerald-500">Experience</span>
                 </h2>
 
                 <div className="space-y-16">

@@ -12,7 +12,7 @@ export default function About({ content }: { content: string }) {
                 className="space-y-6"
             >
                 <h2 className="text-3xl font-bold flex items-center gap-4">
-                    <span className="text-emerald-500">01.</span> About Me
+                    <span className="text-emerald-500">About Me</span>
                 </h2>
                 <div className="text-lg text-zinc-400 leading-relaxed max-w-2xl">
                     {content}

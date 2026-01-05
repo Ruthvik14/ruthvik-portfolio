@@ -79,7 +79,6 @@ export default function Hero({ characterProps }: HeroProps) {
 
             {/* Main Content */}
             <div className="z-10 text-center space-y-8 px-4">
-                {/* Animated Character Image Container */}
                 <motion.div
                     style={{ x: characterProps.x, y: characterProps.y, scale: characterProps.scale }}
                     className="relative w-48 h-48 md:w-64 md:h-64 mx-auto mb-4"
@@ -121,7 +120,7 @@ export default function Hero({ characterProps }: HeroProps) {
                 >
                     <SocialIcon href={portfolioData.profile.socials.github} icon={<Github />} />
                     <SocialIcon href={portfolioData.profile.socials.linkedin} icon={<Linkedin />} />
-                    <SocialIcon href={portfolioData.profile.socials.twitter} icon={<Twitter />} />
+                    {/* <SocialIcon href={portfolioData.profile.socials.twitter} icon={<Twitter />} /> */}
                     <SocialIcon href={`mailto:${portfolioData.profile.email}`} icon={<Mail />} />
                 </motion.div>
             </div>

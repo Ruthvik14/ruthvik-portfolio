@@ -35,16 +35,16 @@ export default function ProfileCard({ data }: ProfileCardProps) {
                     <Mail size={16} className="text-emerald-500" />
                     <span>{data.email}</span>
                 </div>
-                {/* <div className="flex items-center gap-3 text-zinc-400 text-sm">
+                <div className="flex items-center gap-3 text-zinc-400 text-sm">
                     <MapPin size={16} className="text-emerald-500" />
                     <span>{data.location}</span>
-                </div> */}
+                </div>
             </div>
 
             <div className="flex gap-4 pt-4">
                 <SocialLink href={data.socials.github} icon={<Github size={20} />} />
                 <SocialLink href={data.socials.linkedin} icon={<Linkedin size={20} />} />
-                <SocialLink href={data.socials.twitter} icon={<Twitter size={20} />} />
+                {/* <SocialLink href={data.socials.twitter} icon={<Twitter size={20} />} /> */}
             </div>
         </motion.div>
     )

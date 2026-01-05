@@ -18,7 +18,7 @@ export default function Skills({ skills }: { skills: Skill[] }) {
             >
                 <div className="space-y-2">
                     <h2 className="text-3xl font-bold flex items-center gap-4">
-                        <span className="text-emerald-500">02.</span> Skills I Bring to the Table
+                        <span className="text-emerald-500"> Skills I Bring to the Table</span>
                     </h2>
                     <p className="text-zinc-400 text-sm">Technologies I work with</p>
                 </div>

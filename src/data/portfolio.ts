@@ -54,6 +54,16 @@ export const portfolioData = {
         { name: "Confluence", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" },
         { name: "Postman", logo: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
         { name: "VS Code", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+        { name: "FastAPI", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
+        { name: "OpenAI", logo: "https://cdn.worldvectorlogo.com/logos/openai-2.svg" },
+        { name: "GenAI", logo: "https://cdn-icons-png.flaticon.com/512/12128/12128224.png" }, // Placeholder or specific icon
+        { name: "Scikit", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" },
+        { name: "Pandas", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
+        { name: "Numpy", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
+        { name: "Flask", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
+        { name: "Pytorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+        { name: "Seaborn", logo: "https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" },
+        { name: "Machine Learning", logo: "https://cdn-icons-png.flaticon.com/512/8618/8618881.png" },
     ],
     experience: [
         {
@@ -65,11 +75,11 @@ export const portfolioData = {
                     dates: "2024 - 2025",
                     location: "USA",
                     bullets: [
-                        "Developed distributed microservices in Java & Spring Boot, reducing latency by 40%.",
-                        "Built high-volume ingestion pipelines using Kafka & AWS Lambda.",
-                        "Optimized storage with DynamoDB & S3, improving reliability by 35%.",
+                        // "Developed distributed microservices in Java & Spring Boot, reducing latency by 40%.",
+                        // "Built high-volume ingestion pipelines using Kafka & AWS Lambda.",
+                        // "Optimized storage with DynamoDB & S3, improving reliability by 35%.",
                     ],
-                    // techStack: ["Java", "Spring Boot", "AWS", "Kafka"]
+                    techStack: ["Java", "Spring Boot", "AWS", "Kafka"]
                 },
                 {
                     title: "Software Engineer",
@@ -77,9 +87,9 @@ export const portfolioData = {
                     dates: "2019 - 2022",
                     location: "India",
                     bullets: [
-                        "Developed core pricing engine for a Global Pricing Configurator.",
-                        "Built SKU selection UI using Angular with reusable components.",
-                        "Automated pipelines with Kubernetes & Docker, reducing defects by 30%.",
+                        // "Developed core pricing engine for a Global Pricing Configurator.",
+                        // "Built SKU selection UI using Angular with reusable components.",
+                        // "Automated pipelines with Kubernetes & Docker, reducing defects by 30%.",
                     ],
                     techStack: ["Java", "Spring Boot", "Angular", "Docker"]
                 }
@@ -91,10 +101,19 @@ export const portfolioData = {
                 {
                     title: "Master of Science in Computer Science",
                     org: "Northern Arizona University",
-                    dates: "2022 - 2024",
+                    dates: "2024",
                     bullets: [
-                        "Focused on Advanced Algorithms, Cloud Computing, and Machine Learning.",
-                        "GPA: 3.80/4.0",
+                        // "Focused on Advanced Algorithms, Cloud Computing, and Machine Learning.",
+                        // "GPA: 3.80/4.0",
+                    ]
+                },
+                {
+                    title: "Bachelor of Science in Computer Science",
+                    org: "St.Joseph's Institute of Technology",
+                    dates: "2020",
+                    bullets: [
+                        // "Focused on Advanced Algorithms, Cloud Computing, and Machine Learning.",
+                        // "GPA: 3.80/4.0",
                     ]
                 },
             ]
@@ -103,17 +122,28 @@ export const portfolioData = {
     ],
     projects: [
         {
-            name: "Distributed Microservices",
-            description: "High-performance Java & Spring Boot microservices deployed on EC2 workloads.",
-            highlights: [
-                "40% reduction in latency",
-                "Auto-scalable infrastructure",
-                "Clean architecture"
-            ],
-            techStack: ["Java", "Spring Boot", "AWS"],
-            image: "/assets/projects/microservices.png",
-            github: "https://github.com/Ruthvik14",
-            live: "#"
+            name: "Heart Failure Prediction",
+            description: "The Heart Failure Prediction System is a machine learning-powered API designed to predict the likelihood of heart failure based on patient clinical data. Built using Flask, Scikit-learn, and Pandas, this model leverages Random Forest Classifier to achieve an 87% accuracy in identifying high-risk individuals",
+            techStack: ["Python", "Flask", "Seaborn", "Machine Learning"],
+            date: "Dec 2024",
+            github: "https://github.com/Ruthvik14/Heart_Failure_Prediction",
+            // live: "https://github.com/Ruthvik14/Heart_Failure_Prediction"
+        },
+        {
+            name: "AI Text Summarization",
+            description: "Built an AI-powered text summarization tool using OpenAI models to condense long articles, documents, and reports into clear, context-preserving summaries. Designed a FastAPI backend with retrieval logic, implemented prompt-engineering techniques for higher accuracy. This project strengthened my skills in Python, GenAI integration.",
+            techStack: ["Python", "FastAPI", "OpenAI", "GenAI", "Next.js"],
+            date: "May 2025",
+            github: "https://github.com/Ruthvik14/AI-text-Summarization",
+            // live: "https://github.com/Ruthvik14/Heart_Failure_Prediction"
+        },
+        {
+            name: "Smart Public Transport Delay Predictor",
+            description: "Built an AI-powered text summarization tool using OpenAI models to condense long articles, documents, and reports into clear, context-preserving summaries. Designed a FastAPI backend with retrieval logic, implemented prompt-engineering techniques for higher accuracy. This project strengthened my skills in Python, GenAI integration.",
+            techStack: ["Python", "FastAPI", "Next.js", "Celery", "Scikit", "Pandas", "Numpy", "Docker"],
+            date: "Dec 2025",
+            github: "https://github.com/Ruthvik14/Smart-Public-Transport-Delay-Predictor",
+            // live: "https://github.com/Ruthvik14/Heart_Failure_Prediction"
         }
     ]
 };

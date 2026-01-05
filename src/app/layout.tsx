@@ -16,10 +16,7 @@ export const metadata: Metadata = {
   title: "Ruthvik Lakka | Portfolio",
   description: "Full Stack Developer specializing in Java, Next.js, and AWS. Explore my projects and experience.",
   icons: {
-    icon: [
-      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon.png', sizes: '16x16', type: 'image/png' },
-    ],
+    icon: "https://ui-avatars.com/api/?name=RK&background=10b981&color=fff",
   },
 };
 
