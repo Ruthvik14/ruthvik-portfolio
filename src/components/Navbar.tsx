@@ -50,15 +50,14 @@ export default function Navbar() {
                             {link.name}
                         </a>
                     ))}
-                    <a
+                    {/* <a
                         href="/Ruthvik_Lakka_Java.pdf"
                         className="px-4 py-2 bg-emerald-500 text-[#0a0a0a] rounded-lg text-sm font-bold hover:bg-emerald-400 transition-colors"
                     >
                         Resume
-                    </a>
+                    </a> */}
                 </div>
 
-                {/* Mobile menu could be added here if needed, but let's keep it clean first */}
             </div>
         </nav>
     )
